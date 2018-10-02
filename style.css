@@ -1,0 +1,16 @@
+body {
+  background: url('https://www.tesla.com/sites/default/files/images/homepage/20180710/ms/homepage-models@2x.jpg?20180712a');
+  background-size: cover;
+  height: 900px;
+}
+
+.ui.borderless.menu {
+  background-color: inherit;
+  box-shadow: none;
+  border: none;
+}
+.item {
+  color: white;
+}
+
+
