@@ -1,7 +1,8 @@
 body {
   background: url('https://www.tesla.com/sites/default/files/images/homepage/20180710/ms/homepage-models@2x.jpg?20180712a');
   background-size: cover;
-  height: 900px;
+  height: auto;
+  color: white;
 }
 
 .ui.borderless.menu {
@@ -9,8 +10,28 @@ body {
   box-shadow: none;
   border: none;
 }
-.item {
+.ui.small.image {
+  padding-top: 12px;
+  padding-left: 5px;
+  margin-right: 21%;
+}
+.a.item {
   color: white;
+}
+
+.ui.inverted.button {
+  color: black;
+  outline-color: black;
+}
+
+.ui.button {
+  background-color: inherit;
+  color: white;
+}
+
+.footer {
+  padding-top: 40%;
+  padding-bottom: 20px;
 }
 
 
